@@ -15,14 +15,11 @@ install:
 script:
   # Tests
   - python -m unittest discover -v
-  # PyLint
-  - make lint
 
 notifications:
   email:
     recipients:
       - louis.remus@berkeley.edu
       - auriane.blarre@berkeley.edu
-      - romain.kakko-chiloff@berkeley.edu
     on_success: change
     on_failure: change
