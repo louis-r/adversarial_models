@@ -57,9 +57,9 @@ The non-targeted attacks goal is to modify slightly the input (so
 
 2. **Targeted Attacks**  
 Here, we choose the class of the fooled input. Indeed, given an
-    image in class $ A $ that we want to misclassify in class $ B $, we
+    image in class A that we want to misclassify in class B, we
     compute an adversarial noise to modify this image to have in
-    classified in $ B $ by the unknown classifier.
+    classified in B by the unknown classifier.
     
 # Results
 ## ImageNet - Inception
