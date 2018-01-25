@@ -71,7 +71,6 @@ performed on the Inception model.
 
 ![Non targeted BIM attack on beetle](figures/non_targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
 
-
 ![Non targeted BIM attack on cannon](figures/non_targeted/orig_label=cannon,adversarial_label=bassinet.png)
 
 ![Non targeted BIM attack on ostrich](figures/non_targeted/orig_label=ostrich,Struthiocamelus,adversarial_label=dhole,Cuonalpinus.png)
@@ -80,8 +79,7 @@ performed on the Inception model.
 The following image (taken from Goodfellow CS231n 2017 lecture) shows
 how the FGSM crosses the classification boundaries.
 
-![Adversarial
-map[]{data-label="fig:adv_map"}](figures/maps_adversarial.png){width="60.00000%"}
+![Adversarial Map](figures/maps_adversarial.png)
 
 ### Targeted Attacks
 
@@ -90,14 +88,11 @@ label stethoscope. Note that we reach the target label in all the cases
 and we could have reached it with smaller number of iterations and thus
 smaller distortion of the original image.
 
-![Targeted BIM attack on beetle:
-loss[]{data-label="fig:loss_beetle_targeted"}](figures/targeted/loss_orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=stethoscope.png){width="40.00000%"}
+![Targeted BIM attack on beetle](figures/targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=stethoscope.png)
 
-![Targeted BIM attack on cannon:
-loss[]{data-label="fig:loss_cannon_targeted"}](figures/targeted/loss_orig_label=cannon,adversarial_label=stethoscope.png){width="40.00000%"}
+![Targeted BIM attack on cannon](figures/targeted/orig_label=cannon,adversarial_label=stethoscope.png)
 
-![Targeted BIM attack on ostrich:
-loss[]{data-label="fig:loss_ostrich_targeted"}](figures/targeted/loss_orig_label=bobsled,bobsleigh,bob,adversarial_label=stethoscope.png){width="40.00000%"}
+![Targeted BIM attack on ostrich](figures/targeted/orig_label=bobsled,bobsleigh,bob,adversarial_label=stethoscope.png)
 
 
 ### Overall Performance
@@ -108,5 +103,4 @@ percentage of successful attacks on 20 randomly selected images, with
 1 iteration, therefore with a FGSM attack. The attack here is
 non targeted.
 
-![ImageNet: % of successful adversarial images on attacks:
-loss[]{data-label="fig:imagenet_succ_attacks"}](imagenet_successful_adv_images.png){width="\textwidth"}
+![ImageNet: % of successful adversarial images on attacks](imagenet_successful_adv_images.png)
