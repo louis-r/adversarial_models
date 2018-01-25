@@ -69,14 +69,12 @@ The following images presents the results of adversarial attacks
 performed on the Inception model.
 
 
-![Non targeted BIM attack on beetle:results](figures/non_targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
+![Non targeted BIM attack on beetle](figures/non_targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
 
 
-![Non targeted BIM attack on cannon:
-loss[]{data-label="fig:loss_cannon_non_targeted"}](figures/non_targeted/loss_orig_label=cannon,adversarial_label=bassinet.png){width="40.00000%"}
+![Non targeted BIM attack on cannon](figures/non_targeted/orig_label=cannon,adversarial_label=bassinet.png)
 
-![Non targeted BIM attack on ostrich:
-loss[]{data-label="fig:loss_ostrich_non_targeted"}](figures/non_targeted/loss_orig_label=ostrich,Struthiocamelus,adversarial_label=dhole,Cuonalpinus.png){width="40.00000%"}
+![Non targeted BIM attack on ostrich](figures/non_targeted/orig_label=ostrich,Struthiocamelus,adversarial_label=dhole,Cuonalpinus.png)
 
 
 The following image (taken from Goodfellow CS231n 2017 lecture) shows
