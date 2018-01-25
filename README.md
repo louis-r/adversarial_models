@@ -79,7 +79,7 @@ performed on the Inception model.
 The following image (taken from Goodfellow CS231n 2017 lecture) shows
 how the FGSM crosses the classification boundaries.
 
-![Adversarial Map](figures/maps_adversarial.png)
+![Adversarial Map](figures/non_targeted/maps_adversarial.png)
 
 ### Targeted Attacks
 
