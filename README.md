@@ -103,4 +103,41 @@ percentage of successful attacks on 20 randomly selected images, with
 1 iteration, therefore with a FGSM attack. The attack here is
 non targeted.
 
-![ImageNet: % of successful adversarial images on attacks](imagenet_successful_adv_images.png)
+![ImageNet: % of successful adversarial images on attacks](figures/non_targeted/imagenet_successful_adv_images.png)
+
+# Conclusion
+
+In this project, we explored the possibility of creating adversarial
+images for two famous datasets: ImageNet and MNIST. We illustrated how
+successful adversarial attacks were, leading us to think that the
+classification boundary has a simple structure.
+
+We also illustrated how the adversarial noise learned on one classifier, our was transferable to
+another classifier, our , and conversely, which shows that the
+adversarial noise generalizes well and has a common structure among
+relatively similar classifiers. We also demonstrated that the structure
+of the noise was crucial: targeted and non targeted were much more
+effective than random noise attacks.
+
+# Remarks
+
+- It seems that every algorithm which is easy to optimize is easy to
+    perturb: do we need to move past gradient-based optimization to
+    overcome adversarial examples?
+
+-   A smaller, but well-built noise for a non targeted attack has a
+    better performance that a bigger random noise attack.
+
+-   As we saw that adversarial noise was transferable, **we cannot use
+    ensembles or bagging methods as a defense against adversarial
+    attacks**.
+
+-   One must consider the existence of adversarial examples when
+    deciding whether to use machine learning.
+
+-   We did not need access to the model parameters or the training set.
+    This makes the task even easier for an attacker with bad intentions.
+
+-   To actually assess the robustness of its model, a researcher must
+    measure his model’s error rate on fast gradient sign method
+    adversarial examples and report it.
