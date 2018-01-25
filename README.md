@@ -69,7 +69,9 @@ The following images presents the results of adversarial attacks
 performed on the Inception model.
 
 
-![Test](https://github.com/louis-r/adversarial_models/blob/master/figures/non_targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
+![Non targeted BIM attack on beetle:results](https://github.com/louis-r/adversarial_models/blob/master/figures/non_targeted/orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
+
+![Non targeted BIM attack on beetle:loss](https://github.com/louis-r/adversarial_models/blob/master/figures/non_targeted/loss_orig_label=long-hornedbeetle,longicorn,longicornbeetle,adversarial_label=starfish,seastar.png)
 
 ![Non targeted BIM attack on cannon:
 loss[]{data-label="fig:loss_cannon_non_targeted"}](figures/non_targeted/loss_orig_label=cannon,adversarial_label=bassinet.png){width="40.00000%"}
